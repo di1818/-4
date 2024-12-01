@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Academy – Современные решения для бизнеса</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#home" class="logo">HR Academy</a>
+                <ul class="nav-menu">
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#services">Курсы</a></li>
+                    <li><a href="#tracker">Трекерство</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="hero">
+                <h1 class="fade-in">Мы помогаем HR и компаниям достигать новых высот</h1>
+                <p class="slide-in">Современные решения для профессионалов и бизнеса</p>
+                <a href="#services" class="btn bounce">Узнать больше</a>
+            </div>
+            <img src="header-image.png" alt="HR professionals" class="hero-image fade-in">
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>О нас</h2>
+            <p>HR Academy — это команда экспертов, которая помогает физическим лицам и компаниям развиваться через обучение и эффективные HR-решения.</p>
+            <div class="grid">
+                <div class="grid-item">
+                    <h3>Курсы для физических лиц</h3>
+                    <p>Обучение для рекрутеров, HR-менеджеров и директоров. С нуля или для повышения квалификации.</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Трекерство</h3>
+                    <p>Поддержка компаний: анализ слабых мест и регулярные рекомендации.</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Полный курс для компаний</h3>
+                    <p>Внедрение HR-систем, построение и реконструкция отделов, оптимизация бизнес-процессов.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Курсы и услуги</h2>
+            <div class="flex">
+                <div class="card zoom">
+                    <h3>Рекрутер</h3>
+                    <p>С нуля до профессионала. Развивайтесь в одной из самых востребованных HR-профессий.</p>
+                </div>
+                <div class="card zoom">
+                    <h3>HR-менеджер</h3>
+                    <p>Углубите навыки управления персоналом и корпоративной культуры.</p>
+                </div>
+                <div class="card zoom">
+                    <h3>HR-директор</h3>
+                    <p>Расширьте экспертизу для стратегического управления.</p>
+                </div>
+            </div>
+            <a href="#contact" class="btn bounce">Записаться на курс</a>
+        </div>
+    </section>
+
+    <section id="tracker" class="tracker">
+        <div class="container">
+            <h2>Трекерство</h2>
+            <p>Мы предлагаем уникальный подход к анализу бизнес-процессов и внедрению HR-инструментов. Наши трекеры помогают выявлять слабые места и предоставляют эффективные решения для их устранения.</p>
+            <ul>
+                <li>Еженедельные встречи с экспертами.</li>
+                <li>Пошаговые рекомендации для улучшения.</li>
+                <li>Контроль внедрения новых инструментов.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <h2>Контакты</h2>
+            <form action="https://formspree.io/f/your-email" method="POST">
+                <input type="text" name="name" placeholder="Ваше имя" required>
+                <input type="email" name="email" placeholder="Ваш Email" required>
+                <textarea name="message" placeholder="Ваше сообщение" rows="4" required></textarea>
+                <button type="submit" class="btn">Отправить</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
